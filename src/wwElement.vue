@@ -1,7 +1,7 @@
 
 <template>
   <div class="my-element">
-    <p :style="textStyle">I am a custom element !</p>
+    <p v-on:click="scannerReady()" :style="textStyle">I am a custom element !</p>
   </div>
   <card-reader
     @ready="scannerReady"
