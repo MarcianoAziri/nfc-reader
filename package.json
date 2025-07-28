@@ -1,0 +1,14 @@
+{
+  "name": "nfc-reader",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
+  },
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  },
+  "dependencies": {
+    "@helios-interactive/vue-nfc-reader": "^0.1.0"
+  }
+}
