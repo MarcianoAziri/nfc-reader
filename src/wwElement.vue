@@ -16,6 +16,7 @@
 
 <script>
 import NFCRead from '@helios-interactive/vue-nfc-reader';
+Vue.use(NFCRead, { host: 'http://localhost', port: 3333 });
 export default {
   props: {
     content: { type: Object, required: true },
